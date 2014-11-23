@@ -1,0 +1,26 @@
+{
+  "name": "sum-all",
+  "version": "0.0.1",
+  "description": "Simple app structure",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node_modules/nodemon/bin/nodemon.js app",
+    "start-dev": "NODE_ENV=development make"
+  },
+  "keywords": [
+    "node",
+    "web",
+    "framework"
+  ],
+  "author": "amadeus j",
+  "license": "ISC",
+  "dependencies": {
+    "ecstatic": "^0.5.6",
+    "engine.io-stream": "^0.4.3",
+    "featherweight-router": "^0.1.0",
+    "jade": "^1.7.0",
+    "jade-stream": "^0.1.2",
+    "nodemon": "^1.2.1"
+  }
+}

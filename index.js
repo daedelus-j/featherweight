@@ -5,7 +5,6 @@ var config = require('./lib/config');
 module.exports = function start(opts) {
   var opts = opts || {};
 
-  console.log(require('./lib/http-requests'));
   var router = require('featherweight-router')({
     socketEvents: require('./lib/socket-events'),
     staticFiles: require('./lib/static-requests'),
